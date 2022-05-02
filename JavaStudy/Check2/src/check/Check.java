@@ -10,10 +10,9 @@ public class Check {
     public static void main(String[] args) {
         // TODO 自動生成されたメソッド・スタブ
         PrintName(firstName,lastName);
-        Constants constants = new Constants();
-        Pet pet = new Pet(constants.CHECK_CLASS_JAVA,constants.CHECK_CLASS_HOGE);
+        Pet pet = new Pet(Constants.CHECK_CLASS_JAVA,Constants.CHECK_CLASS_HOGE);
         pet.introduce();
-        RobotPet robotPet= new RobotPet(constants.CHECK_CLASS_R2D2,constants.CHECK_CLASS_LUKE);
+        RobotPet robotPet= new RobotPet(Constants.CHECK_CLASS_R2D2,Constants.CHECK_CLASS_LUKE);
         robotPet.introduce();
         
     }
